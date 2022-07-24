@@ -1,0 +1,33 @@
+{{>header}}
+{{>navbar}}
+<section class="container my-5">
+    <form method="post">
+        <div class="mb-3">
+            <input class="form-control" name="name" placeholder="name" value="{{result._id}}" disabled>
+        </div>
+        <div class="mb-3">
+            <input class="form-control" name="name" placeholder="name" value="{{result.name}}">
+        </div>
+        <div class="mb-3">
+            <input class="form-control" name="email" placeholder="email" value="{{result.email}}">
+        </div>
+                <div class="mb-3">
+            <input class="form-control" name="password" placeholder="password" value="{{result.password}}">
+        </div>
+        <div class="mb-3">
+            <input class="form-control" name="age" placeholder="age" value="{{result.age}}">
+        </div>
+        <div class="mb-3">
+            <input class="form-control" name="gender" placeholder="gender"  value="{{result.gender}}">
+        </div>
+        <div class="mb-3">
+            <input class="form-control" name="phone" placeholder="phone" value="{{result.phone}}">
+        </div>
+
+        <div class="mb-3">
+            <button class="btn btn-primary">edit user</button>
+        </div>
+
+    </form>
+</section>
+{{>footer}}
